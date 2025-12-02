@@ -45,6 +45,7 @@ public class Controller : MonoBehaviour
     int m_CurrentWeapon;
     bool m_HasDoubleJumped = false;
 
+
     
     float m_VerticalAngle, m_HorizontalAngle;
     public float Speed { get; private set; } = 0.0f;
@@ -59,6 +60,8 @@ public class Controller : MonoBehaviour
     bool m_Grounded;
     float m_GroundedTimer;
     float m_SpeedAtJump = 0.0f;
+    float m_CoyoteTimeWindow = 0.2f;
+    float m_TimeSinceGrounded = 0.0f;
 
     List<Weapon> m_Weapons = new List<Weapon>();
     Dictionary<int, int> m_AmmoInventory = new Dictionary<int, int>();
@@ -123,6 +126,7 @@ public class Controller : MonoBehaviour
             if (m_Grounded)
             {
                 m_GroundedTimer += Time.deltaTime;
+                m_TimeSinceGrounded = 0.0f;
                 if (m_GroundedTimer >= 0.5f)
                 {
                     loosedGrounding = true;
@@ -132,6 +136,7 @@ public class Controller : MonoBehaviour
         }
         else
         {
+            m_TimeSinceGrounded += Time.deltaTime;
             m_GroundedTimer = 0.0f;
             m_Grounded = true;
             m_HasDoubleJumped = false; //reset double jump when we land
@@ -142,13 +147,14 @@ public class Controller : MonoBehaviour
         if (!m_IsPaused && !LockControl)
         {
             // Jump (we do it first as 
-            if (m_Grounded && Input.GetButtonDown("Jump"))
+            if ((m_Grounded || m_TimeSinceGrounded < m_CoyoteTimeWindow) && Input.GetButtonDown("Jump"))
             {
                 // apply upward velocity for jump
                 m_VerticalSpeed = JumpSpeed;
                 m_Grounded = false;
                 loosedGrounding = true;
                 FootstepPlayer.PlayClip(JumpingAudioCLip, 0.8f, 1.1f);
+                m_TimeSinceGrounded = m_CoyoteTimeWindow + 1.0f;
             }
             // double jump input
             else if (!m_Grounded && !m_HasDoubleJumped && Input.GetButtonDown("Jump"))

@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/KylaFpsKit/FpsKit/Packages/manifest.json
+    m_FilePath: D:/FpsKit_CoyoteTime/CoyoteTimeFpsKit/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,7 +8,7 @@ m_ProjectFiles:
       ticks: 638936585935134917
     m_Hash: 1586468362
   m_LockFileStatus:
-    m_FilePath: D:/KylaFpsKit/FpsKit/Packages/packages-lock.json
+    m_FilePath: D:/FpsKit_CoyoteTime/CoyoteTimeFpsKit/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -19,7 +19,7 @@ m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/KylaFpsKit/FpsKit/Packages
+m_ProjectPath: D:/FpsKit_CoyoteTime/CoyoteTimeFpsKit/Packages
 m_EditorVersion: 6000.0.16f1 (ae37dbaefed8)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.2d.sprite
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.2d.sprite
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -97,7 +97,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.2d.tilemap
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.2d.tilemap
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -184,7 +184,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.4.2
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.ads
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.ads
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
   displayName: Advertisement Legacy
@@ -253,10 +253,12 @@ m_ResolvedPackages:
     - 4.4.1
     - 4.4.2
     - 4.12.0
+    - 4.16.3
     compatible:
     - 4.4.2
     - 4.12.0
-    recommended: 4.12.0
+    - 4.16.3
+    recommended: 4.16.3
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -294,7 +296,7 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 4.4.2
     nextVersion: 
-    recommendedVersion: 4.12.0
+    recommendedVersion: 4.16.3
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
@@ -317,7 +319,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.3
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.ai.navigation
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.ai.navigation
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -474,7 +476,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.8.1
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.analytics
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.analytics
   assetPath: Packages/com.unity.analytics
   name: com.unity.analytics
   displayName: Analytics Library
@@ -483,38 +485,77 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The Unity Analytics Library contains the Analytics Event Tracker component,
     the Data Privacy plug-in, and the Standard Events API.
   errors: []
   versions:
     all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.7
+    - 0.0.8
+    - 0.0.9
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 0.0.17
+    - 0.0.19
+    - 2.0.5
+    - 2.0.11
+    - 2.0.13
+    - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 3.0.5
+    - 3.0.9
+    - 3.1.1
+    - 3.2.0
+    - 3.2.2
+    - 3.2.3
+    - 3.3.0
+    - 3.3.2-preview
+    - 3.3.2
+    - 3.3.4
+    - 3.3.5
+    - 3.4.0
+    - 3.5.3
+    - 3.6.11
+    - 3.6.12
+    - 3.7.1
     - 3.8.1
+    - 3.8.2
     compatible:
     - 3.8.1
-    recommended: 3.8.1
+    - 3.8.2
+    recommended: 3.8.2
     deprecated: []
   dependencies:
-  - name: com.unity.services.analytics
-    version: 1.0.4
   - name: com.unity.ugui
     version: 1.0.0
-  resolvedDependencies:
   - name: com.unity.services.analytics
-    version: 5.1.1
+    version: 1.0.4
+  resolvedDependencies:
   - name: com.unity.ugui
     version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.services.analytics
+    version: 5.1.1
   - name: com.unity.services.core
     version: 1.13.0
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -531,9 +572,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637789683740000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -565,7 +606,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.9.3
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.collab-proxy
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.collab-proxy
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -663,6 +704,9 @@ m_ResolvedPackages:
     - 2.9.1
     - 2.9.2
     - 2.9.3
+    - 2.10.0
+    - 2.10.1
+    - 2.10.2
     compatible:
     - 2.4.4
     - 2.5.1
@@ -674,6 +718,9 @@ m_ResolvedPackages:
     - 2.9.1
     - 2.9.2
     - 2.9.3
+    - 2.10.0
+    - 2.10.1
+    - 2.10.2
     recommended: 2.4.4
     deprecated: []
   dependencies: []
@@ -740,7 +787,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.5
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.ext.nunit
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.ext.nunit
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -819,7 +866,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.31
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.ide.rider
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.ide.rider
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -882,14 +929,17 @@ m_ResolvedPackages:
     - 3.0.35
     - 3.0.36
     - 3.0.37
+    - 3.0.38
     compatible:
     - 3.0.31
     - 3.0.34
     - 3.0.35
     - 3.0.36
     - 3.0.37
-    recommended: 3.0.37
-    deprecated: []
+    - 3.0.38
+    recommended: 3.0.38
+    deprecated:
+    - 3.0.37
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -944,7 +994,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.22
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.ide.visualstudio
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.ide.visualstudio
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -985,10 +1035,12 @@ m_ResolvedPackages:
     - 2.0.21
     - 2.0.22
     - 2.0.23
+    - 2.0.25
     compatible:
     - 2.0.22
     - 2.0.23
-    recommended: 2.0.23
+    - 2.0.25
+    recommended: 2.0.25
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -1052,7 +1104,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.0
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.inputsystem
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.inputsystem
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -1124,6 +1176,7 @@ m_ResolvedPackages:
     - 1.14.0
     - 1.14.1
     - 1.14.2
+    - 1.15.0
     compatible:
     - 1.9.0
     - 1.10.0
@@ -1136,6 +1189,7 @@ m_ResolvedPackages:
     - 1.14.0
     - 1.14.1
     - 1.14.2
+    - 1.15.0
     recommended: 1.9.0
     deprecated: []
   dependencies:
@@ -1260,7 +1314,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.2.1
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.nuget.newtonsoft-json
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.nuget.newtonsoft-json
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -1283,10 +1337,27 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.0
     - 3.2.1
+    - 3.2.2
     compatible:
     - 3.2.1
-    recommended: 3.2.1
+    - 3.2.2
+    recommended: 3.2.2
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -1301,9 +1372,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638186318800000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -1336,7 +1407,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.4.0
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.postprocessing
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.postprocessing
   assetPath: Packages/com.unity.postprocessing
   name: com.unity.postprocessing
   displayName: Post Processing
@@ -1391,9 +1462,11 @@ m_ResolvedPackages:
     - 3.3.0
     - 3.4.0
     - 3.5.0
+    - 3.5.1
     compatible:
     - 3.4.0
     - 3.5.0
+    - 3.5.1
     recommended: 3.4.0
     deprecated: []
   dependencies:
@@ -1452,7 +1525,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.12.2
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.purchasing
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.purchasing
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -1552,6 +1625,8 @@ m_ResolvedPackages:
     - 4.12.1
     - 4.12.2
     - 4.13.0
+    - 4.13.1
+    - 4.13.2
     - 5.0.0-pre.1
     - 5.0.0-pre.3
     - 5.0.0-pre.4
@@ -1561,9 +1636,12 @@ m_ResolvedPackages:
     - 5.0.0-pre.8
     - 5.0.0
     - 5.0.1
+    - 5.0.2
     compatible:
     - 4.12.2
     - 4.13.0
+    - 4.13.1
+    - 4.13.2
     - 5.0.0-pre.1
     - 5.0.0-pre.3
     - 5.0.0-pre.4
@@ -1573,7 +1651,8 @@ m_ResolvedPackages:
     - 5.0.0-pre.8
     - 5.0.0
     - 5.0.1
-    recommended: 5.0.1
+    - 5.0.2
+    recommended: 5.0.2
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -1595,11 +1674,11 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.services.core
     version: 1.13.0
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -1653,7 +1732,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.0.3
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.render-pipelines.universal
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.render-pipelines.universal
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -1815,7 +1894,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 5.1.1
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.services.analytics
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.services.analytics
   assetPath: Packages/com.unity.services.analytics
   name: com.unity.services.analytics
   displayName: Analytics
@@ -1888,11 +1967,11 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.services.core
     version: 1.13.0
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -1945,7 +2024,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.13.0
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.services.core
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.services.core
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -1954,7 +2033,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: 'This package defines common components used by multiple Game Service
     packages.
 
@@ -1963,24 +2042,59 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.1
+    - 1.1.0-pre.7
+    - 1.1.0-pre.8
+    - 1.1.0-pre.9
+    - 1.1.0-pre.10
+    - 1.1.0-pre.11
+    - 1.1.0-pre.41
+    - 1.1.0-pre.69
+    - 1.2.0
+    - 1.3.1
+    - 1.3.2
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.5.2
+    - 1.6.0
+    - 1.7.0
+    - 1.7.1
+    - 1.8.1
+    - 1.8.2
+    - 1.9.0
+    - 1.10.1
+    - 1.11.0
+    - 1.12.0
+    - 1.12.1
+    - 1.12.2
+    - 1.12.4
+    - 1.12.5
     - 1.13.0
+    - 1.14.0
+    - 1.15.1
+    - 1.15.2
     compatible:
     - 1.13.0
+    - 1.14.0
+    - 1.15.1
+    - 1.15.2
     recommended: 
     deprecated: []
   dependencies:
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   keywords: []
   registry:
@@ -1993,9 +2107,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638542134710000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.13/manual/index.html
   hasRepository: 1
   repository:
@@ -2006,7 +2120,7 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.13.0
     nextVersion: 
-    recommendedVersion: 1.15.1
+    recommendedVersion: 1.16.0
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
@@ -2028,7 +2142,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.4.5
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.test-framework
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.test-framework
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -2193,7 +2307,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.timeline
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.timeline
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -2381,7 +2495,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.ugui
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.ugui
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -2476,7 +2590,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.4
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.visualscripting
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.visualscripting
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -2526,13 +2640,15 @@ m_ResolvedPackages:
     - 1.9.6
     - 1.9.7
     - 1.9.8
+    - 1.9.9
     compatible:
     - 1.9.4
     - 1.9.5
     - 1.9.6
     - 1.9.7
     - 1.9.8
-    recommended: 1.9.8
+    - 1.9.9
+    recommended: 1.9.9
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -2595,7 +2711,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.1.10
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.xr.legacyinputhelpers
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.xr.legacyinputhelpers
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -2604,7 +2720,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: XR
-  type: 
+  type: asset
   description: This package includes the tracked pose driver for the legacy input
     system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
     Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
@@ -2614,10 +2730,42 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    - 2.1.9
     - 2.1.10
+    - 2.1.11
+    - 2.1.12
+    - 2.1.13
+    - 3.0.0
     compatible:
     - 2.1.10
-    recommended: 2.1.10
+    - 2.1.11
+    - 2.1.12
+    - 2.1.13
+    - 3.0.0
+    recommended: 2.1.13
     deprecated: []
   dependencies:
   - name: com.unity.modules.vr
@@ -2651,9 +2799,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637958908030000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -2688,7 +2836,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -2755,7 +2903,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -2822,7 +2970,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -2888,7 +3036,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2955,7 +3103,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -3022,7 +3170,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -3089,7 +3237,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -3160,7 +3308,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.director
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -3235,7 +3383,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -3302,7 +3450,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -3369,7 +3517,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -3436,7 +3584,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -3503,7 +3651,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -3570,7 +3718,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -3637,7 +3785,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -3704,7 +3852,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -3775,7 +3923,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3846,7 +3994,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -3913,7 +4061,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -3988,7 +4136,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -4058,7 +4206,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -4125,7 +4273,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -4208,7 +4356,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -4275,7 +4423,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -4350,7 +4498,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -4417,7 +4565,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -4492,7 +4640,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -4567,7 +4715,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -4642,7 +4790,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -4733,7 +4881,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -4804,7 +4952,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.video
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -4883,7 +5031,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.vr
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -4964,7 +5112,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -5031,7 +5179,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -5110,7 +5258,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.render-pipelines.core
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.render-pipelines.core
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -5324,7 +5472,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.shadergraph
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.shadergraph
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -5527,7 +5675,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.render-pipelines.universal-config
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.render-pipelines.universal-config
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal RP Config
@@ -5625,7 +5773,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.2
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.searcher
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.searcher
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -5657,10 +5805,12 @@ m_ResolvedPackages:
     - 4.9.1
     - 4.9.2
     - 4.9.3
+    - 4.9.4
     compatible:
     - 4.9.2
     - 4.9.3
-    recommended: 4.9.3
+    - 4.9.4
+    recommended: 4.9.4
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -5711,7 +5861,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.17
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.burst
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.burst
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -5866,6 +6016,7 @@ m_ResolvedPackages:
     - 1.8.23
     - 1.8.24
     - 1.8.25
+    - 1.8.26
     compatible:
     - 1.8.17
     - 1.8.18
@@ -5876,7 +6027,8 @@ m_ResolvedPackages:
     - 1.8.23
     - 1.8.24
     - 1.8.25
-    recommended: 1.8.25
+    - 1.8.26
+    recommended: 1.8.26
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -5945,7 +6097,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.2
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.mathematics
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.mathematics
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -5979,10 +6131,12 @@ m_ResolvedPackages:
     - 1.2.6
     - 1.3.1
     - 1.3.2
+    - 1.3.3
     compatible:
     - 1.3.1
     - 1.3.2
-    recommended: 1.3.2
+    - 1.3.3
+    recommended: 1.3.3
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -6035,7 +6189,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.4.1
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.collections
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.collections
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -6127,6 +6281,8 @@ m_ResolvedPackages:
     - 2.6.0-exp.2
     - 2.6.0-pre.3
     - 2.6.0-pre.4
+    - 2.6.2
+    - 2.6.3
     compatible:
     - 2.4.0
     - 2.4.1
@@ -6141,6 +6297,8 @@ m_ResolvedPackages:
     - 2.6.0-exp.2
     - 2.6.0-pre.3
     - 2.6.0-pre.4
+    - 2.6.2
+    - 2.6.3
     recommended: 2.4.3
     deprecated: []
   dependencies:
@@ -6218,7 +6376,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.rendering.light-transport
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.rendering.light-transport
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -6314,7 +6472,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.4
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.nuget.mono-cecil
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.nuget.mono-cecil
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -6344,10 +6502,12 @@ m_ResolvedPackages:
     - 1.10.2
     - 1.11.4
     - 1.11.5
+    - 1.11.6
     compatible:
     - 1.11.4
     - 1.11.5
-    recommended: 1.11.5
+    - 1.11.6
+    recommended: 1.11.6
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -6396,7 +6556,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.3
   source: 1
-  resolvedPath: D:\KylaFpsKit\FpsKit\Library\PackageCache\com.unity.test-framework.performance
+  resolvedPath: D:\FpsKit_CoyoteTime\CoyoteTimeFpsKit\Library\PackageCache\com.unity.test-framework.performance
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
